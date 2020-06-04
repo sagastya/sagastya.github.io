@@ -35,7 +35,7 @@ var projects = [
     //     name: "UFO Sightings",
     //     language_type: "JavaScript",
     //     description: "Dashboard",
-    //     url: "https://tableau.com"
+    //     url: "https://github.com/yourrepo"
     // },
     // {
     //     name: "Destination Hotel",
