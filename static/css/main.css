@@ -1,0 +1,43 @@
+:root{
+    --black: #2e2e2e;
+    --white: #eee;
+    --lavender: #9575cd;
+    --purple: #6200ea;
+    --teal: #004d40;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.jumbotron{
+    /* background-color:#4285F4; */
+    /* background-color: lightgrey; */
+    background-color: var(--black);  
+}
+
+#jmb-h3{
+    color: var(--white);
+}
+
+#my-name{
+    color: var(--lavender);
+    font-size: 60px;
+    /* color: #3949ab  */
+    /* color: #b388ff   */
+    /* color: #4db6ac  */
+}
+
+h3{
+    text-align: center;
+    color: var(--lavender);
+}
+
+#contact{
+    text-align: center;
+    background-color: var(--black);
+}
+
+a{
+    display: block;
+}
