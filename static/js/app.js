@@ -18,7 +18,7 @@ var projects = [
         language_type: "Python",
         description: "Correlations",
         url: "https://github.com/Atlchris67/GroupOneProject.git"
-    },
+    }
     // {
     //     name: "NY Citi Bike",
     //     language_type: "Tableau",
