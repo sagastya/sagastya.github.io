@@ -1,48 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="portfolio, personal, Sreedevi Agasthya">
+    <title>Sreedevi Agasthya Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/main.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Sreedevi Agasthya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h3 id="jmb-h3">Hi, my name is</h3>
+            <h1 id="my-name">Sreedevi Agasthya</h1>
+            <h3 id="jmb-h3">I am a Data Analyst</h3>
+            <!-- <p><button class="btn">
+                    <a href="./second.html">A different page</a>
+                </button></p> -->
+        </div>
+    </div>
 
-  <h1>Your Name</h1>
+    <div class="container clearfix" id="about">
+        <h3>About</h3>
+        <div class="container-fluid">
+            <img src="./static/images/avatar.png" alt="" class="img-fluid float-left mx-3">
+        </div>
+        <p> From data to insights, adept at leveraging technical abilities to synthesize
+            complex analytical tasks into easily understood data driven stories. Committed
+            professional, independent, self-directed, yet also team oriented. Comfortable
+            working collaboratively to apply established analytical processes on diverse
+            datasets to deduce insights and solve real-world business problems.
+        </p>
+        <!-- <p>Lorem ipsum dolor sit amet, sea everti maluisset gloriatur cu. Vel ne aeque alterum. Has latine labores cu,
+            dicit similique sadipscing ut vel. Legere option sensibus mea at. Facilis platonem an duo, congue legimus ne
+            quo. Duo stet atqui delicata eu, dictas aliquip vis ei, quidam deleniti argumentum sit ne. Et per accumsan
+            patrioque, placerat pertinax te duo.
+        </p> -->
+    </div>
+    <div class="container" id="projects">
+        <p></p>
+        <h3>Projects</h3>
+        <div class="row" id="show-projects"></div>
+        <p></p>
+    </div>
 
-  <img src="https://placehold.it/200x200" alt="Your Name">
-
-  <p>Write a short paragraph about yourself or some placeholder text.</p>
-  <p>A second short paragraph about yourself or some placeholder text.</p>
-
-  <ul>
-    <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-    <li><strong>Twitter:</strong> <a href="#">coming soon</a></li>
-  </ul>
-
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Hobbit</td>
-      <td>Hot Fuzz</td>
-      <td>Dark Souls</td>
-    </tr>
-    <tr>
-      <td>The Name of the Wind</td>
-      <td>The Avengers</td>
-      <td>The Last of Us</td>
-    </tr>
-    <tr>
-      <td>The Girl With All the Gifts</td>
-      <td>The Matrix</td>
-      <td>Dragon Age: Origins</td>
-    </tr>
-  </table>
-
+    <footer>
+        <div class="container" id="contact">
+            <h3>Contact</h3>
+            <a href="mailto:sagastya@yahoo.com" class="">Email</a>
+            <a href="https://linkedin.com/in/sreedeviagasthya" class="">LinkedIn</a>
+            <a href="https://github.com/sagastya" class="">Github</a>
+        </div>
+        <p style="text-align:right">&copy 2020 Sreedevi Agasthya</p>
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="./static/js/app.js"></script>
 </body>
 
 </html>
