@@ -19,30 +19,6 @@ var projects = [
         description: "Correlations",
         url: "https://github.com/Atlchris67/GroupOneProject.git"
     }
-    // {
-    //     name: "NY Citi Bike",
-    //     language_type: "Tableau",
-    //     description: "Dashboard",
-    //     url: "https://tableau.com"
-    // },
-    // {
-    //     name: "Seismic Monitor",
-    //     language_type: "JavaSript",
-    //     description: "Geo Mapping Earthquakes",
-    //     url: "https://github.com/sagastya/leaflet-challenge.git"
-    // },
-    // {
-    //     name: "UFO Sightings",
-    //     language_type: "JavaScript",
-    //     description: "Dashboard",
-    //     url: "https://github.com/yourrepo"
-    // },
-    // {
-    //     name: "Destination Hotel",
-    //     language_type: "Python",
-    //     description: "Python APIs",
-    //     url: "github.com/yourrepo"
-    // }
 ]
 
 projects.map(function (project) {
