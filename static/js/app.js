@@ -30,7 +30,7 @@ projects.map(function (project) {
     <div>
     <p>${project.language_type}</p>
     <p>${project.description}</p>
-    <a href="${project.url} target=new">Learn more >></a>
+    <a href="${project.url} target=new">Learn more</a>
     </div>
     `;
     showProjects.appendChild(projectDiv);
