@@ -11,12 +11,12 @@ var projects = [
         name: "Pandemic Stock",
         language_type: "JavaScript",
         description: "Data Visualization",
-        url: "https://safe-castle-93667.herokuapp.com/"
+        url: "https://tweetsandtrade.herokuapp.com/"
     },
     {
         name: "Trump, Tweets, and Trade!",
         language_type: "Python",
-        description: "Correlations",
+        description: "Statistical Correlations",
         url: "https://github.com/Atlchris67/GroupOneProject.git"
     }
 ]
@@ -30,7 +30,7 @@ projects.map(function (project) {
     <div>
     <p>${project.language_type}</p>
     <p>${project.description}</p>
-    <a href="${project.url}">Learn more</a>
+    <a href="${project.url} target=_blank">Learn more >></a>
     </div>
     `;
     showProjects.appendChild(projectDiv);
