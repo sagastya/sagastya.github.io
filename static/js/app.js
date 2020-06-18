@@ -11,10 +11,10 @@ var projects = [
         name: "Pandemic Stock",
         language_type: "JavaScript",
         description: "Data Visualization",
-        url: "https://tweetsandtrade.herokuapp.com/"
+        url: "https://covidshakestock.herokuapp.com/"
     },
     {
-        name: "Trump, Tweets, and Trade!",
+        name: "Tweets and Trade",
         language_type: "Python",
         description: "Statistical Correlations",
         url: "https://github.com/Atlchris67/GroupOneProject.git"
