@@ -16,7 +16,7 @@ var projects = [
     {
         name: "Tweets and Trade",
         language_type: "Python",
-        description: "Statistical Correlations",
+        description: "Data Analysis",
         url: "https://github.com/Atlchris67/GroupOneProject.git"
     }
 ]
