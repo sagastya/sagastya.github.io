@@ -17,7 +17,7 @@ var projects = [
         name: "Tweets and Trade",
         language_type: "Python",
         description: "Data Analysis",
-        url: "https://github.com/Atlchris67/GroupOneProject.git"
+        url: "https://github.com/sagastya/GroupOneProject.git"
     }
 ]
 
